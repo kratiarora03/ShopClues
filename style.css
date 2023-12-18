@@ -1,0 +1,328 @@
+body {
+    background-color: #e3eeee;
+    
+}
+
+.navbar {
+    display: flex;
+    background-color: #fff;
+    height: 90px;
+    width: 100%;
+}
+
+.search-container {
+    margin-left: 50px;
+    margin-top: 28px;
+    display: inline-block;
+    align-items: center;
+}
+
+.search-input {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #bdf4f7;
+    border-radius: 2px;
+    outline: none;
+    background-color: #eaf7f9;
+    height: 21px;
+}
+
+.searchbtn {
+    margin-top: 28px;
+    display: inline-block;
+    align-items: center;
+}
+
+.searchbttn {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #f2e235;
+    border-radius: 2px;
+    outline: none;
+    background-color: #f66737;
+    height: 43px;
+    color: white;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.icon {
+    margin-left: 7%;
+    margin-top: 32px;
+    font-size: 25px;
+    color: #23aeb8;
+    padding: 7px;
+    padding-right: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-bottom: #ccc;
+    box-shadow: #0b0b0b;
+    background-color: #23aeb8;
+    margin-left: 5%;
+   align-items: center;
+   margin-top: 0.7%;
+   padding: 2px;
+  
+   
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #23aeb8;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    
+    
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    
+    box-shadow: 0px 8px 16px 0px rgba(248, 247, 247, 0.2);
+    z-index: 1;
+    
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: #474444;
+    
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Change the background color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #fefdfd;
+}
+
+/* Show the dropdown content when the button is hovered */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#con{
+        background-color: #23aeb8;
+        
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  a{
+    color: grey;
+   margin-left: 3%;
+    margin-top: 10px;
+    text-align: center;
+  }
+ .Button{
+    border: 1px light;
+    padding: 17px;
+    box-shadow: 2px 2px #888888;
+   height: 25px;
+ }
+ .Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(images/1.jpg);
+    }
+    20%
+    {
+        background-image: url(images/2.jpg);
+    }
+    40%
+    {
+        background-image: url(images/3.jpg);
+    }
+    60%
+    {
+        background-image: url(images/4.jpg);
+    }
+    80%
+    {
+        background-image: url(images/5.jpg);
+    }
+    100%
+    {
+        background-image: url(images/1.jpg);
+    }
+}
+.product {
+    max-width: 180px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Style the product image */
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the product title */
+.product-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Style the product description */
+.product-description {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Style the product price */
+.product-price {
+    font-size: 20px;
+    color: #4cb7cd;
+    margin: 10px 0;
+}
+
+/* Style the "Add to Cart" button */
+.add-to-cart {
+    background-color:#23aeb8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #388fb1;
+}
+nav {
+    height: 10vh;
+    width: 100vw;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #ffffff;
+  }
+  a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  }
+  a:before,
+  a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #18d0f0;
+    transition: 0.5s;
+  }
+  a:after {
+    left: 0;
+    bottom: -10px;
+  }
+  a:before {
+    right: 0;
+    top: -10px;
+  }
+  a:hover {
+    color: #1f1e1e;
+  }
+  a:hover:after,
+  a:hover:before {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .search-input {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    .navbar {
+        height: auto; /* Adjust height for smaller screens */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        justify-content: center; /* Center items */
+    } 
+}
+.image-line {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .image-line img {
+    width: 290px; /* Set the width of each image */
+    height: 170px; /* Maintain aspect ratio */
+    margin: 0 10px; /* Adjust spacing between images */
+  }
+  .site-footer {
+    background-color: #dfeaef; /* Background color for the footer */
+    color: #191919; /* Text color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center-align the content */
+   
+}
+
+.footer-content {
+    max-width: 1200px; /* Limit the width of content */
+    margin: 0 auto; /* Center content horizontally */
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: lighter;
+
+    
+}
+
+#footer{
+    background-color: white;
+    margin-top: 20px;
+}
